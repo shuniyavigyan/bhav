@@ -1,0 +1,44 @@
+# Build directories
+build/
+build-*/
+build_debug/
+build-hindi/
+build-temp*/
+
+# Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Object / compiled C files
+*.o
+*.a
+*.so
+*.dll
+*.dylib
+
+# Configure outputs
+pyconfig.h
+config.log
+config.status
+
+# Generated parser and grammar files
+Parser/Python.asdl
+Parser/asdl.*
+Parser/graminit.c
+Include/graminit.h
+Lib/lib2to3/*.pickle
+
+# Doc build output
+Doc/build/
+Doc/_build/
+
+# Staged installs for Docker
+install/
+install-*/
+
+# Virtualenvs
+env/
+venv/
+.venv/
